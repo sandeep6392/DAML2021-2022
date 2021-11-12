@@ -1,0 +1,25 @@
+sp@DESKTOP-F5GF5ET MINGW64 ~/Desktop (master)
+$ cd desktop
+bash: cd: desktop: No such file or directory
+
+sp@DESKTOP-F5GF5ET MINGW64 ~/Desktop (master)
+$ cd DAML2021-2022
+
+sp@DESKTOP-F5GF5ET MINGW64 ~/Desktop/DAML2021-2022 (master)
+$ git init
+Initialized empty Git repository in C:/Users/sp/Desktop/DAML2021-2022/.git/
+
+sp@DESKTOP-F5GF5ET MINGW64 ~/Desktop/DAML2021-2022 (master)
+$ git remote add origin https://github.com/sandeep6392/DAML2021-2022.git
+
+sp@DESKTOP-F5GF5ET MINGW64 ~/Desktop/DAML2021-2022 (master)
+$ git add .
+
+sp@DESKTOP-F5GF5ET MINGW64 ~/Desktop/DAML2021-2022 (master)
+$ git commit -m "first commit"
+[master (root-commit) 377bb98] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 task.xlsx
+
+sp@DESKTOP-F5GF5ET MINGW64 ~/Desktop/DAML2021-2022 (master)
+$ git push origin master
